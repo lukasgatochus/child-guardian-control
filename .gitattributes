@@ -1,0 +1,16 @@
+# See https://github.com/github/linguist
+* text=auto eol=lf
+build/* linguist-vendored
+
+package-lock.json linguist-generated
+*.htm linguist-vendored
+
+go.sum linguist-generated
+
+*.sh text eol=lf
+*.tsx linguist-detectable
+node_modules/* linguist-vendored
+src/**/*.tsx linguist-detectable
+*.png binary
+public/index.html linguist-vendored
+# eof e4ad86db
