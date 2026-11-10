@@ -1,0 +1,9 @@
+.next/
+dist/
+yarn-error.log*
+*.log
+.env
+coverage/
+.env.local
+.cache/
+.pnpm-store/
